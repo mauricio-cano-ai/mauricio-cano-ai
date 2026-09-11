@@ -1,43 +1,48 @@
-﻿# Mauricio Alfonso Cano
+# Mauricio Alfonso Cano
 
 **Applied AI & Agentic Systems Engineer** based in Guadalajara, Mexico.
 
-I build reliable AI systems for real business workflows â€” combining agent orchestration, backend engineering, automation, integrations, and production reliability patterns.
+I build reliable AI systems for real business workflows, combining agent orchestration, backend engineering, automation, integrations, and production reliability.
 
 ## Core engineering focus
 
-- **Agentic systems:** MCP, A2A, multi-agent orchestration, tool calling, structured outputs, RAG, human-in-the-loop
+- **Agentic systems:** LangGraph, MCP, A2A, multi-agent orchestration, tool/function calling, Structured Outputs, RAG, human-in-the-loop
 - **Backend:** Python, FastAPI, Pydantic, TypeScript, Node.js, NestJS, JavaScript
-- **Data & state:** PostgreSQL, Supabase, SQL/PLpgSQL, durable state, audit trails
-- **Automation & integrations:** n8n, REST APIs, webhooks, OAuth, WhatsApp, Google Calendar
+- **Data and state:** PostgreSQL, Supabase, SQL/PLpgSQL, durable state, audit trails
+- **Automation and integrations:** n8n, WordPress REST API, REST APIs, webhooks, OAuth, WhatsApp, Google Calendar
 - **Reliability:** idempotency, retries, deduplication, stale-execution protection, recovery, tracing
-- **AI quality:** prompt engineering, scope enforcement, deterministic boundaries, pytest, DeepEval
+- **AI quality:** prompt/context engineering, deterministic boundaries, pytest, DeepEval
 
 ## Featured work
 
-### [ChampionAI Agent Platform](https://github.com/mauricio-cano-ai/championai-agent-platform)
-Runnable async Python engineering lab for a manufacturing incident agent platform.
+### [EasyAIgent - Agentic Systems Engineering Portfolio](https://github.com/mauricio-cano-ai/easyaigent-agentic-systems-portfolio)
 
-**Signals:** FastAPI Â· Pydantic Â· OpenAI Structured Outputs Â· MCP Â· A2A Â· multi-agent orchestration Â· HITL Â· DeepEval Â· PostgreSQL Â· reliability patterns
-
-### [EasyAIgent â€” Agentic Systems Engineering Portfolio](https://github.com/mauricio-cano-ai/easyaigent-agentic-systems-portfolio)
 Sanitized architecture and engineering case studies from a real multitenant AI-enabled CRM and operations platform for real-estate agencies.
 
-**Signals:** durable ingress Â· PostgreSQL-backed state Â· concurrency control Â· idempotency Â· stale-response protection Â· deterministic routing Â· human takeover Â· auditability
+**Signals:** durable ingress | PostgreSQL-backed state | concurrency control | idempotency | stale-response protection | deterministic routing | human takeover | auditability
+
+### [Agency AI Automation Lab](https://github.com/mauricio-cano-ai/agency-ai-automation-lab)
+
+Runnable agency automation workflow built with LangGraph, OpenAI Responses API, FastAPI and WordPress REST.
+
+**Signals:** StateGraph | conditional routing and cycles | HITL interrupt/resume | Structured Outputs | SSE streaming | authenticated WordPress draft creation | pytest
+
+### [ChampionAI Agent Platform](https://github.com/mauricio-cano-ai/championai-agent-platform)
+
+Runnable async Python engineering lab for reliable agentic systems.
+
+**Signals:** FastAPI | Pydantic | OpenAI Structured Outputs | MCP | A2A | multi-agent orchestration | HITL | DeepEval | PostgreSQL | reliability patterns
 
 ## How I build
 
 I treat LLM output as one component of a larger software system.
 
-My default approach is:
+**business invariant -> deterministic boundaries -> agent/tool design -> durable state -> failure handling -> tests/evals -> observability**
 
-**business invariant â†’ deterministic boundaries â†’ agent/tool design â†’ durable state â†’ failure handling â†’ tests/evals â†’ observability**
-
-That means permissions, ownership, state transitions, deduplication, and safety-critical routing stay deterministic; model reasoning is used where ambiguity actually exists.
+Permissions, ownership, state transitions, deduplication, and safety-critical routing stay deterministic. Model reasoning is used where ambiguity actually exists.
 
 ## Open to
 
-Applied AI Engineer Â· Agentic AI Engineer Â· AI Automation Engineer Â· AI Integration Engineer Â· AI Platform / Implementation roles
+Applied AI Engineer | Agentic AI Engineer | AI Automation Engineer | AI Integration Engineer | Forward-Deployed / Implementation-oriented AI roles
 
-[LinkedIn](https://www.linkedin.com/in/mauricio-alfonso-cano-ai/) Â· [EasyAIgent](https://easyaigent.com)
-
+[LinkedIn](https://www.linkedin.com/in/mauricio-alfonso-cano-ai/) | [EasyAIgent](https://easyaigent.com)
