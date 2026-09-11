@@ -4,7 +4,7 @@
 
 I build production AI systems from ambiguous business problems through architecture, full-stack implementation, integrations, reliability, and deployment.
 
-My work sits at the intersection of **engineering + consulting + product delivery**: understand the business constraint, make the system boundaries deterministic, use agent reasoning where ambiguity adds value, then instrument and ship the result.
+My work sits at the intersection of **engineering + consulting + product delivery**: understand the business constraint, make the important system boundaries deterministic, use agent reasoning where ambiguity adds value, then instrument and ship the result.
 
 ## Featured engineering
 
@@ -17,6 +17,12 @@ Production-oriented reference implementation for governed enterprise AI agents.
 **Signals:** LangGraph | FastAPI | React/TypeScript | PostgreSQL/pgvector | JWT/RBAC | immutable agent registry | typed/audited Tool Gateway | Redis | OpenTelemetry | Docker/Kubernetes | Helm | Terraform | Azure AKS | GitHub Actions | Trivy
 
 **What it demonstrates:** server-side capability resolution, budgets and rate limits, persistent runs/audit, RAG, deterministic credential-free review, production model adapters, CI-gated infrastructure, and a real container smoke path.
+
+### [Agency AI Automation Lab](https://github.com/mauricio-cano-ai/agency-ai-automation-lab)
+
+Runnable agency workflow showing how an AI system moves through generation, streaming preview, human review, revisions, and a constrained CMS side effect.
+
+**Signals:** LangGraph StateGraph | HITL interrupt/resume | OpenAI Responses API | Structured Outputs | SSE | FastAPI | WordPress REST | pytest
 
 ### [ChampionAI Agent Platform](https://github.com/mauricio-cano-ai/championai-agent-platform)
 
@@ -48,4 +54,4 @@ I treat LLM output as one component of a larger software system. Permissions, ow
 
 Based in Guadalajara, Mexico. Spanish native, English advanced professional.
 
-[LinkedIn](https://www.linkedin.com/in/mauricio-alfonso-cano-ai) | [EasyAIgent](https://easyaigent.com)
+[LinkedIn](https://www.linkedin.com/in/mauricio-alfonso-cano-ai/) | [EasyAIgent](https://easyaigent.com)
