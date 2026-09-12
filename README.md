@@ -18,6 +18,15 @@ Production-oriented reference implementation for governed enterprise AI agents.
 
 **What it demonstrates:** server-side capability resolution, budgets and rate limits, persistent runs/audit, RAG, deterministic credential-free review, production model adapters, CI-gated infrastructure, and a real container smoke path.
 
+### [AWS Bedrock Production Integration](https://github.com/mauricio-cano-ai/aws-bedrock-production-integration)
+
+[![CI](https://github.com/mauricio-cano-ai/aws-bedrock-production-integration/actions/workflows/ci.yml/badge.svg)](https://github.com/mauricio-cano-ai/aws-bedrock-production-integration/actions/workflows/ci.yml)
+
+Production-style serverless AI integration extracted and sanitized from a real EasyAIgent deployment.
+
+**Signals:** Python | Amazon Bedrock (Nova) | API Gateway | Lambda | DynamoDB | SSM | IAM | CloudWatch observability | X-Ray tracing in the SAM template | Pydantic | idempotency | structured outputs | AWS SAM | GitHub Actions
+
+**What it demonstrates:** strict typed boundaries around LLM output, atomic request claiming/caching in DynamoDB, secret-backed request authentication, least-privilege IAM, bounded failure handling, regression tests, and reproducible sam validate/build gates.
 ### [Agency AI Automation Lab](https://github.com/mauricio-cano-ai/agency-ai-automation-lab)
 
 Runnable agency workflow showing how an AI system moves through generation, streaming preview, human review, revisions, and a constrained CMS side effect.
